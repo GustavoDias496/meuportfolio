@@ -2,6 +2,7 @@
 import Header from "@/components/Header.vue";
 import Home from "@/components/Home.vue";
 import Projects from "@/components/Projects.vue";
+import Habilidades from "@/components/Skills.vue";
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import Projects from "@/components/Projects.vue";
     <Header></Header>
     <Home></Home>
     <Projects></Projects>
+    <Habilidades></Habilidades>
   </main>
 </template>
 
