@@ -39,21 +39,18 @@ console.log(skills)
     padding: 20px;
 }
 
-@media (max-width: 768px) {
-    .skills-container {
-
-        grid-template-columns: repeat(1, minmax(300px, 1fr));
-    }
-
-
-}
-
 @media (max-width: 1024px) {
     .skills-container {
 
         grid-template-columns: repeat(2, minmax(300px, 1fr));
     }
-
-
 }
+
+@media (max-width: 768px) {
+    .skills-container {
+
+        grid-template-columns: repeat(1, minmax(300px, 1fr));
+    }
+}
+
 </style>
