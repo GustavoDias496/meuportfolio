@@ -1,10 +1,21 @@
 <script setup lang="ts">
+import { projects } from "../data/ProjectData";
+import ProjectCard from "./ProjectCard.vue";
+console.log(projects)
 </script>
 
 <template>
     <section class="container">
         <h1 class="title">Projetos</h1>
         <div class="projects-container">
+            <ProjectCard 
+                v-for="project in projects" 
+                :key="project.id" 
+                :title="project.title"
+                :description="project.describe" 
+                :image="project.image" 
+                :technologies="project.technologies" 
+            />
         </div>
     </section>
 </template>
@@ -23,7 +34,7 @@
 .title {
     text-align: center;
     margin-bottom: 2rem;
-    color: #2c3e50;
+    color: var(--color-text-primary);
 }
 
 .projects-container {

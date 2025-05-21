@@ -29,7 +29,7 @@ export default {
 </script>
 
 <template>
-  <div class="card">
+  <div class="card" v-if="image">
     <div class="card-image">
       <img class="project-image" :src="image" alt="Project Image">
     </div>
@@ -83,6 +83,7 @@ export default {
   margin: 0 0 1rem 0;
   color: var(--color-text-about-card);
   font-size: 0.9rem;
+  text-align: justify;
 }
 
 .card-tech {
@@ -96,6 +97,6 @@ export default {
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
   font-size: 0.8rem;
-  color: #333;
+  color: var(--color-text-primary);
 }
 </style>
