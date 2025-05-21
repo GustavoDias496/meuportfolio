@@ -1,6 +1,6 @@
 import HomeAdmin from "@/assets/HomeAdmin.png";
-import mncvexpress from "@/assets/mnexpress.PNG";
-import sifsoft from "@/assets/sifsoft.PNG";
+import mncvexpress from "@/assets/mnexpress.jpg";
+import sifsoft from "@/assets/sifsoft.jpg";
 
 interface TechItem {
   name: string;
