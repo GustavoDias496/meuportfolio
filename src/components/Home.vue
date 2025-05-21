@@ -2,18 +2,19 @@
 </script>
 
 <template>
-    <section class="container">
+    <section class="container" id="inicio">
         <div class="top-container">
             <img src="../assets/eu.jpg" alt="" class="photo">
-            <p class="aboutText">Olá! Meu nome é Gustavo Dias, atualmente estou cursando o 8º Período de sistemas de
-                informação, meus principais interesses são em desenvolvimento web e mobile, áreas das quais busco me
-                especializar cada vez mais. Nesse portfólio você vai conseguir me conhecer um pouco melhor e ver alguns
-                projetos desenvolvidos.</p>
+            <p class="aboutText">Olá! Meu nome é Gustavo Dias, sou bacharel em Sistemas de Informação pelo IFNMG – Campus Salinas. Tenho grande interesse nas áreas de desenvolvimento web e mobile, nas quais estou em constante busca de aperfeiçoamento e especialização.
+
+Durante minha graduação, fui membro da SIFSoft Júnior, a empresa júnior da instituição, onde atuei como Diretor de Projetos e desenvolvedor backend.
+
+Neste portfólio, você poderá me conhecer melhor e explorar alguns dos projetos que desenvolvi ao longo da minha trajetória.</p>
         </div>
 
         <div class="bottom-container">
-            <img src="../assets/github.svg" alt="" class="icon">
-            <img src="../assets/linkedin.svg" alt="" class="icon">
+            <a href="https://github.com/GustavoDias496" target="_blank"><img src="../assets/github.svg" alt="" class="icon"></a>
+            <a href="https://www.linkedin.com/in/gustavodias66/" target="_blank"><img src="../assets/linkedin.svg" alt="" class="icon"></a>
         </div>
         <div class="bottom-container">
 

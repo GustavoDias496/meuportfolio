@@ -5,7 +5,7 @@ console.log(skills)
 </script>
 
 <template>
-    <section class="container">
+    <section class="container" id="habilidades">
         <h1 class="title">Habilidades</h1>
         <div class="skills-container">
             <SkillCard v-for="skill in skills" :key="skill.id" :title="skill.title" :image="skill.image" />

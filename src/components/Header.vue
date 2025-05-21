@@ -8,9 +8,9 @@ export default defineComponent({
     const isMobile = ref(false);
     
     const menuItems = [
-      { text: 'Início', href: '#' },
-      { text: 'Projetos', href: '#' },
-      { text: 'Habilidades', href: '#' }
+      { text: 'Início', href: '#inicio' },
+      { text: 'Projetos', href: '#projetos' },
+      { text: 'Habilidades', href: '#habilidades' }
     ];
     
     const checkScreenSize = () => {
@@ -124,7 +124,7 @@ export default defineComponent({
 .hamburger-inner::after {
   width: 24px;
   height: 3px;
-  background-color: #333;
+  background-color: var(--color-menu-bar);
   border-radius: 3px;
   position: absolute;
   transition-property: transform, opacity;
@@ -199,7 +199,7 @@ export default defineComponent({
   top: 60px;
   left: 0;
   width: 100%;
-  background: transparent;
+  background-color: var(--color-background-primary);
   padding: 20px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   z-index: 1000;

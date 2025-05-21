@@ -5,7 +5,7 @@ console.log(projects)
 </script>
 
 <template>
-    <section class="container">
+    <section class="container" id="projetos">
         <h1 class="title">Projetos</h1>
         <div class="projects-container">
             <ProjectCard 
