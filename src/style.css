@@ -4,8 +4,12 @@
   --color-background-primary: #070707;
   --color-background-secondary: #13131f;
 
+  --color-background-card: #f3cccc;
+
   --color-text-primary: #ffffff;
   --color-text-secondary: #8257e6;
+  --color-text-title-card: #1f1f20;
+  --color-text-about-card: #29292b;
 
   --color-border: #8257e6;
 }
