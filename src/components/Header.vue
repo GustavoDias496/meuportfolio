@@ -57,7 +57,7 @@ export default defineComponent({
         <span class="hamburger-inner"></span>
       </span>
     </button>
-    <img v-if="!isMobile" src="../../assets/logo.svg" alt="logo" class="menu-logo"/>
+    <img v-if="!isMobile" src="../assets/logo.svg" alt="logo" class="menu-logo"/>
     <nav 
       class="menu"
       :class="{ 
