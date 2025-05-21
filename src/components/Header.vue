@@ -79,13 +79,14 @@ export default defineComponent({
 
 <style scoped>
 .responsive-menu-container {
+  position: fixed;
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 15px;
-  background-color: transparent;
+  background-color: var(--color-background-primary);
   box-sizing: border-box;
   border-bottom: 2px solid var(--color-border);
 }
